@@ -1,0 +1,53 @@
+body {
+   max-width: 55%;
+   margin: 0 auto;
+   padding-left: 5%;
+   font-family: Arial, Helvetica, sans-serif;
+
+   display: flex;
+   flex-direction: column;
+   min-height: 100vh;
+}
+
+h1{
+    font-size: 500%;
+    color: rgb(68, 66, 66);
+    margin: 2% 0% 2% 0%;
+}
+
+header a {
+    text-decoration: none;
+    font-size: 125%;
+    margin: 2%;
+    color: rgb(95, 97, 95);
+}
+
+footer {
+    border-top: 1px solid;
+    margin-top: 8%;
+    border-width: 20%;
+    padding-top: 4%;
+
+}
+
+.image{
+    width: 70%;
+}
+
+.main-contant{
+    flex-grow: 1;
+}
+input{
+    color: rgb(0, 47, 255);
+    border: 3px solid ;
+    font-size: 170%;
+    padding: 8px;
+}
+button{
+    cursor: pointer;
+    border: 3px solid rgb(98, 0, 255);
+    color: blue;
+    padding: 8px;
+    font-size: 100%;
+
+}
